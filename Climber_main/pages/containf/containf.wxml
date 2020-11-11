@@ -1,0 +1,16 @@
+<!-- 这个是聚合功能模块的中转页面 -->
+<view class="container">
+    <view class="habit">微习惯板块</view>
+    <view class="focus">
+        <text class="focus_text">专注一下</text>
+        <view class="focus_two">
+            <navigator url="/pages/function1/function">
+                <view class="focus_real">基础版</view>
+            </navigator>
+            <navigator url="/pages/function2/function2">
+                <view class="focus_real">进阶版</view>
+            </navigator>
+        </view>
+    </view>
+    <view class="reflection">反思自我</view>
+</view>

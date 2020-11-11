@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+}
+
+.habit{
+    height: 30%;
+    width: 100%;
+    font-size: 90rpx;
+    text-align: center;
+    background-color:lime ;
+}
+
+.focus{
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    width: 100%;
+    background-color: cyan;
+}
+.focus_text{
+    height:40%;
+    text-align: center;
+    justify-content: center;
+    font-size: 75rpx;
+}
+.focus_two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 50rpx;
+}
+.focus_real{
+    margin: 35rpx 35rpx;
+    height: 70rpx;
+}
+
+.reflection{
+    height: 30%;
+    width: 100%;
+    font-size: 90rpx;
+    text-align: center;
+    background-color: violet;
+}
